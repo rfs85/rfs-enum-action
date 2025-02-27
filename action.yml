@@ -6,6 +6,9 @@ inputs:
     description: 'Who to greet'
     required: true
     default: 'AppSec'
+  permissions:
+    contents: read
+    pull-requests: write
 outputs:
   time: # id of output
     description: 'The time we greeted you'
